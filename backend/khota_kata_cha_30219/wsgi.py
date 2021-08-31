@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'khota_kata_cha_30219.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "khota_kata_cha_30219.settings")
 
 application = get_wsgi_application()
